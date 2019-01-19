@@ -19,6 +19,7 @@ makeCacheMatrix <- function(m=matrix()){
   #1. set the value of the matrix
   set <- function(matrix){
     m <<- matrix
+    i <<-NULL
   }
   
   #2. get the value of the matrix
